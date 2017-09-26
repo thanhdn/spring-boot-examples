@@ -15,10 +15,6 @@ public class Course {
 	private Long courseId;
 	
 	private String courseName;
-
-
-	
-
 	
 	public Long getCourseId() {
 		return courseId;

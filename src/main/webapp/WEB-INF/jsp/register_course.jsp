@@ -6,9 +6,9 @@
 </head>
 <body>
 	<h1>Register a course</h1>
-    <form action="#" th:action="@{/register-course}" th:object="${course}" method="post">
-    	<p>Id: <input type="text" th:field="*{courseId}" /></p>
-        <p>Course name: <input type="text" th:field="*{courseName}" /></p>
+    <form action="/register-course" method="post">
+    	<p>Id: <input type="number" name="courseId"  /></p>
+        <p>Course name: <input type="text" name="courseName" /></p>
         <p><input type="submit" value="Submit" /> 
         <input type="reset" value="Reset" /></p>
     </form>

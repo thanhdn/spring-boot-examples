@@ -6,8 +6,9 @@
 </head>
 <body>
 	<h1>Result</h1>
-    <p th:text="'id: ' + ${course.courseId}" />
-    <p th:text="'content: ' + ${course.courseName}" />
-    <a href="/register-course">Submit another message</a>
+    <p>Id:  ${course.courseId} </p>
+   	<p>Course Name: ${course.courseName}</p>
+    <a href="/register-course">Submit another course</a><br/>
+    <a href="view-all-course">View all course</a>
 </body>
 </html>
